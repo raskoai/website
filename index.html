@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TheHollows Records, a modern record label landing page."
+    />
+    <title>TheHollows Records</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="particle-field" aria-hidden="true"></canvas>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <main class="site-shell">
+      <section class="hero section-reveal" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">THEHOLLOWS RECORDS</p>
+          <h1>ENTER THE HOLLOWS.</h1>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button" href="https://discord.gg/D54K9TwFwr">Submit Demo</a>
+            <a
+              class="button"
+              href="https://open.spotify.com/playlist/3GnZsV7oJvio0zCanLTMvT?si=8fe8bdf35c5644ba"
+              >Releases</a
+            >
+            <a
+              class="button"
+              href="https://open.spotify.com/playlist/1LbNmmGyVmVZTs55ojPMuW?si=98705da5627841b0"
+              >References</a
+            >
+          </div>
+        </div>
+
+        <div class="logo-orbit" data-tilt>
+          <img src="./public/logo.png" alt="TheHollows Records logo" />
+          <div class="logo-fallback">TH</div>
+        </div>
+      </section>
+
+      <section class="team section-reveal" aria-label="Meet our team">
+        <div class="team-heading">
+          <p class="eyebrow">FOUNDING TEAM</p>
+          <h2>MEET OUR TEAM</h2>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card" data-tilt>
+            <div class="team-avatar">
+              <img src="./public/nevora.png" alt="Nevora logo" />
+              <span>N</span>
+            </div>
+            <div class="team-copy">
+              <span>01</span>
+              <h3>Nevora</h3>
+              <p>Co-Founder &amp; CEO / Managing Director</p>
+            </div>
+          </article>
+
+          <article class="team-card" data-tilt>
+            <div class="team-avatar">
+              <img src="./public/tufe.png" alt="DJTufe logo" />
+              <span>DT</span>
+            </div>
+            <div class="team-copy">
+              <span>02</span>
+              <h3>DJTufe</h3>
+              <p>Co-Founder &amp; President / COO</p>
+            </div>
+          </article>
+
+          <article class="team-card" data-tilt>
+            <div class="team-avatar">
+              <img src="./public/lonoze.png" alt="Lonoze logo" />
+              <span>L</span>
+            </div>
+            <div class="team-copy">
+              <span>03</span>
+              <h3>Lonoze</h3>
+              <p>Co-Founder &amp; Head of A&amp;R</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="effect section-reveal">
+        <div class="section-heading">
+          <p class="eyebrow">MOMENTUM ENGINE</p>
+          <h2>THEHOLLOWS EFFECT</h2>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card" data-tilt>
+            <span>Streams</span>
+            <strong>0+</strong>
+          </article>
+          <article class="stat-card" data-tilt>
+            <span>TikTok Views</span>
+            <strong>0+</strong>
+          </article>
+          <article class="stat-card" data-tilt>
+            <span>Spotify Streams</span>
+            <strong>0+</strong>
+          </article>
+        </div>
+
+        <div class="strategy-panel section-reveal" data-tilt>
+          <h2>OUR STRATEGY</h2>
+          <p>
+            We begin by focusing on playlist placements to generate organic traction and
+            identify tracks with strong potential. Once a release demonstrates promising
+            performance, we expand into TikTok marketing by collaborating with
+            experienced content creators and editors who help amplify its reach. Every
+            campaign is carefully optimized to maximize visibility, engagement, and
+            long-term growth. Our goal is simple: build sustainable momentum and give
+            every release the strongest possible opportunity to succeed.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section-reveal">
+      <p>THEHOLLOWS RECORDS</p>
+      <span>&copy; 2026</span>
+      <nav class="socials" aria-label="Social links">
+        <a
+          href="https://open.spotify.com/playlist/3GnZsV7oJvio0zCanLTMvT?si=8fe8bdf35c5644ba"
+          aria-label="Spotify"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M7.8 10.2c3.2-1 6.4-.7 8.6.6" />
+            <path d="M8.4 13c2.4-.7 4.9-.5 6.8.5" />
+            <path d="M9 15.5c1.8-.5 3.5-.4 4.9.3" />
+          </svg>
+        </a>
+        <a href="https://discord.gg/D54K9TwFwr" aria-label="Discord">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7.4 8.4c2.9-1.4 6.3-1.4 9.2 0" />
+            <path d="M8.4 17.5c-1.7-.5-2.7-1.3-3.4-2.1.2-3.1 1.1-5.5 2.7-7.6 1-.4 1.9-.6 2.8-.7l.5 1.1" />
+            <path d="M15.6 17.5c1.7-.5 2.7-1.3 3.4-2.1-.2-3.1-1.1-5.5-2.7-7.6-1-.4-1.9-.6-2.8-.7L13 8.2" />
+            <circle cx="9.6" cy="13" r=".8" />
+            <circle cx="14.4" cy="13" r=".8" />
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="5" y="5" width="14" height="14" rx="4" />
+            <circle cx="12" cy="12" r="3.4" />
+            <circle cx="16.6" cy="7.4" r=".7" />
+          </svg>
+        </a>
+      </nav>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
